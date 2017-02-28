@@ -48,10 +48,11 @@ gulp.task('watch', function () {
 
 gulp.task('sass', function() {
   return gulp.src(input.sass)
-    .pipe($.sass({errLogToConsole: false,
-      onError: function(err) {
-        return $.notify().write(err);
-      }}))
+    .pipe($.plumber(function(error){
+        console.log("Error happend!", error.message);
+        this.emit('end');
+    }))
+    .pipe($.sass())
     .pipe($.autoprefixer('last 2 version'))
     .pipe(gulp.dest(output.css))
     .pipe(reload({stream: true}))

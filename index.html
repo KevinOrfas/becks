@@ -9,13 +9,14 @@
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-   <script type="text/javascript" src="assets/scripts/modernizr.js"></script>
+    <!-- Modernizr -->
+    <script type="text/javascript" src="assets/scripts/modernizr.js"></script>
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Latest compiled and minified CSS Bootstrap -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
     <!--removeIf(production)-->
     <link rel='stylesheet' href='assets/styles/app.css' />
@@ -24,16 +25,12 @@
 
     <!-- inject:css -->
     <!-- endinject -->
-    <!--<script src="/bower_components/modernizr/modernizr.js"></script>-->
+
 
 
   </head>
 <body>
-    <header>
-      <h1>Parallax header</h1>
-    </header>
-
-    	<nav id="cd-vertical-nav">
+    <nav id="cd-vertical-nav">
 		<ul>
 			<li>
 				<a href="#section1" data-number="1">
@@ -75,6 +72,10 @@
 	</nav>
 	<a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
 
+   <header class="parallax-header">
+      <h1>Parallax header</h1>
+    </header>
+
 	<section id="section1" class="cd-section">
 		<h1>Vertical Fixed Navigation</h1>
 		<a href="#section2" class="cd-scroll-down cd-img-replace">scroll down</a>
@@ -109,7 +110,8 @@
 
 
     <!--removeIf(production)-->
-    <script type="text/javascript" src="assets/scripts/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="assets/scripts/vendor/jquery-2.1.1.js"></script>
+
     <script type="text/javascript" src="assets/scripts/main.js"></script>
     <script type="text/javascript" src="assets/scripts/app.js"></script>
     <!--endRemoveIf(production)-->

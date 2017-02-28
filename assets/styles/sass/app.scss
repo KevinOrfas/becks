@@ -1,59 +1,30 @@
-@import "variables";
+//Bourbon Library
 @import "bourbon/bourbon";
-@import 'partials/variables'; // colors, fonts etc...
 
-@import 'partials/mixins'; // custom mixins
+//Settings
+@import 'settings/variables';
+@import 'settings/variables-2';
 
-@import 'partials/layout'; // responsive grid and media
-@import "style";
-$image : "../images/parallax-1.jpg";
+//Tools
+@import 'tools/mixins';
 
-// html {
-//   height: 100%;
-//   overflow: hidden;
-// }
+// Generic
+@import "generic/normalize";
+@import "generic/box-sizing";
 
-// body {
-//   color: #fff;
-//   margin: 0;
-//   padding: 0;
-//   -webkit-perspective: 1px;
-//   perspective: 1px;
-//   -webkit-transform-style: preserve-3d;
-//   transform-style: preserve-3d;
-//   height: 100%;
-//   overflow-y: scroll;
-//   overflow-x: hidden;
-// }
+// Base
+@import "base/page";
+@import "base/lists";
+@import "base/media";
 
-// header {
-//   box-sizing: border-box;
-//   min-height: 40vw;
-//   padding: 30vw 0 5vw;
-//   position: relative;
-//   -webkit-transform-style: inherit;
-//   transform-style: inherit;
-//   width: 100vw;
-// }
+// Objects
+@import 'objects/layout';
 
-// header,
-// header:before { background: 50% 50% / cover; }
+// Components
+@import "components/header";
+@import "components/nav";
 
-// header::before {
-//   bottom: 0;
-//   content: "";
-//   left: 0;
-//   position: absolute;
-//   right: 0;
-//   top: 0;
-//   display: block;
-//   background-color: #8a8;
-//   background-image: url($image);
-//   background-size: cover;
-//   background-position-y: -1400px;
-//   background-repeat: no-repeat;
-//   transform-origin: center center 0;
-//   transform: translateZ(-1px) scale(2);
-//   z-index: -1;
-//   min-height: 100vh;
-// }
+// Trumps
+
+
+

@@ -1,0 +1,21 @@
+html {
+    font-size: ($base-font-size / 16px) * 1em; /* [1] */
+    line-height: $base-line-height / $base-font-size; /* [1] */
+    padding: $base-spacing-unit;
+    padding-bottom: 0;
+    background-color: #fff;
+    color: $color-text;
+}
+
+body {
+	font: {
+		size: 100%;
+		family: $primary-font; // variables inside partials > _variables.scss
+	}
+	color: $color-1;
+	background-color: $color-4;
+}
+
+body, html {
+	height: 100%;
+}
