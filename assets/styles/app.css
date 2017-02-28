@@ -123,6 +123,7 @@ img {
   max-width: 100%; }
 
 h2 {
+  margin: 2em 1em 1em 1em;
   font-size: 60px;
   line-height: 1; }
   @media only screen and (min-width: 700px) {
@@ -136,40 +137,39 @@ h2 {
   display: block; }
 
 .event-wrapper {
-  margin-left: -20px;
-  margin-right: -20px;
-  width: calc(100% + 40px); }
+  margin-left: 0;
+  margin-right: 0;
+  width: calc(100% + 0); }
 
 .container--visual {
-  background-image: -webkit-linear-gradient(left, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 20px, transparent 20px, transparent calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px + 20px), transparent calc(25% - 25px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px + 20px), transparent calc(50% - 30px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px + 20px), transparent calc(75% - 35px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100%));
-  background-image: linear-gradient(to right, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 20px, transparent 20px, transparent calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px), rgba(0, 212, 255, 0.25) calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(8.33333% - 21.66667px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px), rgba(0, 212, 255, 0.25) calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(16.66667% - 23.33333px + 20px + 20px), transparent calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px), rgba(0, 212, 255, 0.25) calc(25% - 25px + 20px + 20px), transparent calc(25% - 25px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px), rgba(0, 212, 255, 0.25) calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(33.33333% - 26.66667px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px), rgba(0, 212, 255, 0.25) calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(41.66667% - 28.33333px + 20px + 20px), transparent calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px), rgba(0, 212, 255, 0.25) calc(50% - 30px + 20px + 20px), transparent calc(50% - 30px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px), rgba(0, 212, 255, 0.25) calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(58.33333% - 31.66667px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px), rgba(0, 212, 255, 0.25) calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(66.66667% - 33.33333px + 20px + 20px), transparent calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px), rgba(0, 212, 255, 0.25) calc(75% - 35px + 20px + 20px), transparent calc(75% - 35px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px), rgba(0, 212, 255, 0.25) calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(83.33333% - 36.66667px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px), rgba(0, 212, 255, 0.25) calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(91.66667% - 38.33333px + 20px + 20px), transparent calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100% - 20px), rgba(0, 212, 255, 0.25) calc(100%)); }
+  background-image: -webkit-linear-gradient(left, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 0, transparent 0, transparent calc(8.33333% + 0), rgba(0, 212, 255, 0.25) calc(8.33333% + 0), rgba(0, 212, 255, 0.25) calc(8.33333% + 0 + 0), transparent calc(8.33333% + 0 + 0), transparent calc(16.66667% + 0), rgba(0, 212, 255, 0.25) calc(16.66667% + 0), rgba(0, 212, 255, 0.25) calc(16.66667% + 0 + 0), transparent calc(16.66667% + 0 + 0), transparent calc(25% + 0), rgba(0, 212, 255, 0.25) calc(25% + 0), rgba(0, 212, 255, 0.25) calc(25% + 0 + 0), transparent calc(25% + 0 + 0), transparent calc(33.33333% + 0), rgba(0, 212, 255, 0.25) calc(33.33333% + 0), rgba(0, 212, 255, 0.25) calc(33.33333% + 0 + 0), transparent calc(33.33333% + 0 + 0), transparent calc(41.66667% + 0), rgba(0, 212, 255, 0.25) calc(41.66667% + 0), rgba(0, 212, 255, 0.25) calc(41.66667% + 0 + 0), transparent calc(41.66667% + 0 + 0), transparent calc(50% + 0), rgba(0, 212, 255, 0.25) calc(50% + 0), rgba(0, 212, 255, 0.25) calc(50% + 0 + 0), transparent calc(50% + 0 + 0), transparent calc(58.33333% + 0), rgba(0, 212, 255, 0.25) calc(58.33333% + 0), rgba(0, 212, 255, 0.25) calc(58.33333% + 0 + 0), transparent calc(58.33333% + 0 + 0), transparent calc(66.66667% + 0), rgba(0, 212, 255, 0.25) calc(66.66667% + 0), rgba(0, 212, 255, 0.25) calc(66.66667% + 0 + 0), transparent calc(66.66667% + 0 + 0), transparent calc(75% + 0), rgba(0, 212, 255, 0.25) calc(75% + 0), rgba(0, 212, 255, 0.25) calc(75% + 0 + 0), transparent calc(75% + 0 + 0), transparent calc(83.33333% + 0), rgba(0, 212, 255, 0.25) calc(83.33333% + 0), rgba(0, 212, 255, 0.25) calc(83.33333% + 0 + 0), transparent calc(83.33333% + 0 + 0), transparent calc(91.66667% + 0), rgba(0, 212, 255, 0.25) calc(91.66667% + 0), rgba(0, 212, 255, 0.25) calc(91.66667% + 0 + 0), transparent calc(91.66667% + 0 + 0), transparent calc(100% - 0), rgba(0, 212, 255, 0.25) calc(100% - 0), rgba(0, 212, 255, 0.25) calc(100%));
+  background-image: linear-gradient(to right, rgba(0, 212, 255, 0.25), rgba(0, 212, 255, 0.25) 0, transparent 0, transparent calc(8.33333% + 0), rgba(0, 212, 255, 0.25) calc(8.33333% + 0), rgba(0, 212, 255, 0.25) calc(8.33333% + 0 + 0), transparent calc(8.33333% + 0 + 0), transparent calc(16.66667% + 0), rgba(0, 212, 255, 0.25) calc(16.66667% + 0), rgba(0, 212, 255, 0.25) calc(16.66667% + 0 + 0), transparent calc(16.66667% + 0 + 0), transparent calc(25% + 0), rgba(0, 212, 255, 0.25) calc(25% + 0), rgba(0, 212, 255, 0.25) calc(25% + 0 + 0), transparent calc(25% + 0 + 0), transparent calc(33.33333% + 0), rgba(0, 212, 255, 0.25) calc(33.33333% + 0), rgba(0, 212, 255, 0.25) calc(33.33333% + 0 + 0), transparent calc(33.33333% + 0 + 0), transparent calc(41.66667% + 0), rgba(0, 212, 255, 0.25) calc(41.66667% + 0), rgba(0, 212, 255, 0.25) calc(41.66667% + 0 + 0), transparent calc(41.66667% + 0 + 0), transparent calc(50% + 0), rgba(0, 212, 255, 0.25) calc(50% + 0), rgba(0, 212, 255, 0.25) calc(50% + 0 + 0), transparent calc(50% + 0 + 0), transparent calc(58.33333% + 0), rgba(0, 212, 255, 0.25) calc(58.33333% + 0), rgba(0, 212, 255, 0.25) calc(58.33333% + 0 + 0), transparent calc(58.33333% + 0 + 0), transparent calc(66.66667% + 0), rgba(0, 212, 255, 0.25) calc(66.66667% + 0), rgba(0, 212, 255, 0.25) calc(66.66667% + 0 + 0), transparent calc(66.66667% + 0 + 0), transparent calc(75% + 0), rgba(0, 212, 255, 0.25) calc(75% + 0), rgba(0, 212, 255, 0.25) calc(75% + 0 + 0), transparent calc(75% + 0 + 0), transparent calc(83.33333% + 0), rgba(0, 212, 255, 0.25) calc(83.33333% + 0), rgba(0, 212, 255, 0.25) calc(83.33333% + 0 + 0), transparent calc(83.33333% + 0 + 0), transparent calc(91.66667% + 0), rgba(0, 212, 255, 0.25) calc(91.66667% + 0), rgba(0, 212, 255, 0.25) calc(91.66667% + 0 + 0), transparent calc(91.66667% + 0 + 0), transparent calc(100% - 0), rgba(0, 212, 255, 0.25) calc(100% - 0), rgba(0, 212, 255, 0.25) calc(100%)); }
 
 .col-md-7 {
-  width: calc(58.33333% - 31.66667px);
+  width: calc(58.33333%);
   float: left;
-  margin-left: 20px; }
+  margin-left: 0; }
 
 .col-md-5 {
-  width: calc(41.66667% - 28.33333px);
+  width: calc(41.66667%);
   float: left;
-  margin-left: 20px; }
+  margin-left: 0; }
 
 .col-md-4 {
-  width: calc(33.33333% - 26.66667px);
+  width: calc(33.33333%);
   float: left;
-  margin-left: 20px; }
+  margin-left: 0; }
 
 .col-md-3 {
-  width: calc(25% - 25px);
+  width: calc(25%);
   float: left;
-  margin-left: 20px;
-  background: red; }
+  margin-left: 0;
+  background: rebeccapurple; }
 
 .col-md-2 {
-  width: calc(100% - 40px);
+  width: calc(100%);
   float: left;
-  margin-left: 20px;
-  background: red; }
+  margin-left: 0; }
   @media only screen and (min-width: 700px) {
     .col-md-2 {
       width: calc(16.66667% - 58.33333px);
@@ -177,9 +177,9 @@ h2 {
       margin-left: 50px; } }
 
 .col-md-1 {
-  width: calc(8.33333% - 21.66667px);
+  width: calc(8.33333%);
   float: left;
-  margin-left: 20px; }
+  margin-left: 0; }
 
 /*
 * @subsection   events
@@ -277,26 +277,6 @@ h2 {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.event-block--bg-1 {
-  background-image: -webkit-linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img02.jpg");
-  background-image: linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img02.jpg"); }
-
-.event-block--bg-2 {
-  background-image: -webkit-linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img01.jpg");
-  background-image: linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img01.jpg"); }
-
-.event-block--bg-3 {
-  background-image: -webkit-linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img03.jpg");
-  background-image: linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img03.jpg"); }
-
-.event-block--bg-4 {
-  background-image: -webkit-linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img04.jpg");
-  background-image: linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img04.jpg"); }
-
-.event-block--bg-5 {
-  background-image: -webkit-linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img05.jpg");
-  background-image: linear-gradient(rgba(39, 36, 36, 0.45), rgba(39, 36, 36, 0.45)), url("../images/page-1_img05.jpg"); }
-
 .event-block {
   position: relative;
   -webkit-transform: translateY(0);
@@ -304,8 +284,17 @@ h2 {
   height: 180px; }
 
 .event-info {
-  -webkit-transform: translateY(50%);
-          transform: translateY(50%); }
+  -webkit-transform: translateY(130%);
+          transform: translateY(130%); }
+
+.event-block time {
+  font-size: 20px; }
+
+.event-block .heading-4 {
+  text-decoration: line-through;
+  font-size: 20px; }
+  .event-block .heading-4.first-child {
+    text-decoration: line-through; }
 
 .event-block .is-upcoming {
   text-decoration: none; }
