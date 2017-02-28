@@ -1,5 +1,6 @@
 //Bourbon Library
 @import "bourbon/bourbon";
+@import "neat/neat";
 
 //Settings
 @import 'settings/variables';
@@ -17,6 +18,8 @@
 @import "base/page";
 @import "base/lists";
 @import "base/media";
+@import "base/headings";
+
 
 // Objects
 @import 'objects/layout';
@@ -26,6 +29,6 @@
 @import "components/nav";
 
 // Trumps
-
+// @import "style-min";
 
 

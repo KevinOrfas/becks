@@ -1,0 +1,9 @@
+h2 {
+
+    font-size: 60px;
+    line-height: 1;
+     @include grid-media($custom-neat-grid){
+      font-size: 60px;
+      line-height: 1;
+    }
+}
