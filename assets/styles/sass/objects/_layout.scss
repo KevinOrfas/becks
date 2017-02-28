@@ -13,31 +13,35 @@
    @include grid-visual;
 }
 
-.col-md-7 {
+.col-7 {
   @include grid-column(7);
 }
 
-.col-md-5 {
+.col-6 {
+  @include grid-column(6);
+}
+
+.col-5 {
   @include grid-column(5);
 }
 
-.col-md-4 {
+.col-4 {
   @include grid-column(4);
 }
 
-.col-md-3 {
+.col-3 {
   @include grid-column(3);
   background: rebeccapurple;
 }
 
-.col-md-2 {
+.col-2 {
   @include grid-column(12);
   @include grid-media($custom-neat-grid){
     @include grid-column(2);
   }
 }
 
-.col-md-1 {
+.col-1 {
   @include grid-column(1);
 }
 

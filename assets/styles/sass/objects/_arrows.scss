@@ -1,0 +1,38 @@
+/*
+* @subsection arrows
+*/
+.arrow-left {
+  position: relative;
+  &:after {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    top: 50%;
+    margin-top: -12px;
+    right: -1px;
+    @include triangle(left, 12px, 21px, #fff);
+    transition: .4s all ease;
+  }
+
+  &--mod2 {
+    &:after {
+      right: auto;
+      left: -12px;
+    }
+  }
+}
+
+.arrow-right {
+  position: relative;
+  &:after {
+    position: absolute;
+    display: inline-block;
+    content: '';
+    top: 50%;
+    margin-top: -12px;
+    left: -2px;
+    @include triangle(right, 13px, 21px, #fff);
+    transition: .4s all ease;
+    z-index: 20;
+  }
+}

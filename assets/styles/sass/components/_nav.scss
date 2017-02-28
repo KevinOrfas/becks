@@ -20,53 +20,25 @@ Main components
 .cd-section {
 	min-height: 100%;
 	position: relative;
-	padding: 2em 0;
-
-	&:nth-of-type(odd) {
-		background-color: $color-1;
-
-		p {
-			color: lighten($color-1, 30%);
-		}
-	}
-
-	&:nth-of-type(even) {
-		background-color: $color-2;
-
-		p {
-			color: lighten($color-2, 30%);
-		}
-	}
-
-	h1, p {
-		position: absolute;
-		@include center;
-		width: 90%;
-		max-width: $M;
-		text-align: center;
-	}
-
-	h1 {
-		color: $color-4;
-		font-weight: 300;
-		text-transform: uppercase;
-		@include font-size(20px);
-	}
-
-	p {
-		line-height: 1.6;
-	}
+	// padding: 2em 0;
 
 	@include MQ(M) {
 		h1 {
 			@include font-size(30px);
 		}
-
-		p {
-			@include font-size(20px);
-			line-height: 2;
-		}
 	}
+}
+
+.cd-section--shows {
+  min-height: 10%;
+}
+
+.bg-variant {
+  background: $color-2;
+}
+
+.bg-variant--2 {
+  background: #fff;
 }
 
 .cd-scroll-down {

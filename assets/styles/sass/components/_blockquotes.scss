@@ -1,0 +1,24 @@
+.quote {
+  background: transparent;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+
+}
+
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3.5em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+}
+
+
+.quote__copy {
+  display: inline;
+  font-size: 2em;
+  line-height: 1.2;
+  color: lightblue;
+  text-align: center;
+  font-style: italic;
+}
